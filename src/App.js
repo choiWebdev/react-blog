@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import './App.css';
 
 function App() {
+  // this is feature b
   let [postSubject, setSubject] = useState(['글제목1', '글제목2', '글제목3']);
   const [like, countLike] = useState(0);
 
